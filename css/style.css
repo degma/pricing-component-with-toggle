@@ -21,7 +21,9 @@ body {
   @media only screen and (min-width: 1100px) {
     body {
       flex-direction: row;
-      background-position: top right; } }
+      background-image: url("../images/bg-top.svg"), url("../images/bg-bottom.svg");
+      background-position: top right, 0px 545px;
+      background-repeat: no-repeat, no-repeat; } }
 
 .pricing {
   width: 100%;
@@ -121,8 +123,9 @@ body {
       border-color: #696fdd;
       color: #696fdd; }
   .plans-container .primary {
+    position: relative;
     height: 500px;
-    background-image: linear-gradient(to right, #a3a8f0, #696fdd); }
+    background-image: linear-gradient(#a3a8f0, #696fdd); }
     .plans-container .primary h2 {
       margin-top: 57px;
       color: #f6f6fe; }
@@ -146,7 +149,7 @@ body {
       border-color: #f6f6fe; }
 
 .attribution {
-  margin-top: 20px;
+  margin-top: 70px;
   text-align: center;
   color: #b3b5c6; }
 
