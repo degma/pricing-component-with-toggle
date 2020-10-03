@@ -27,7 +27,8 @@ body {
 
 .pricing {
   width: 100%;
-  min-height: 100vh; }
+  min-height: 100vh;
+  margin-bottom: 75px; }
 
 .header {
   margin-top: 70px;
@@ -149,9 +150,12 @@ body {
       border-color: #f6f6fe; }
 
 .attribution {
-  margin-top: 70px;
+  margin-top: 30px;
   text-align: center;
   color: #b3b5c6; }
+  .attribution a:link {
+    color: #696fdd;
+    text-decoration: none; }
 
 .toggler {
   display: flex;

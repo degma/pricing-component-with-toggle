@@ -39,6 +39,7 @@
     .pricing {
         width: 100%;
         min-height: 100vh;
+        margin-bottom: 75px;
     }
     
     .header {
@@ -189,9 +190,13 @@
     }
     
     .attribution {
-        margin-top: 70px;
+        margin-top: 30px;
         text-align: center;
         color: hsl(234, 14%, 74%);
+        a:link {
+            color: hsl(237, 63%, 64%);
+            text-decoration: none;
+        }
     }
     
     .toggler {
